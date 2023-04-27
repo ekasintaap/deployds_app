@@ -76,7 +76,7 @@ if __name__ == '__main__':
 	#Run ngrok
 	run_with_ngrok(app)
 	# Run Flask di localhost 
-	app.run(host="localhost", port=5000, debug=True)
+	app.run()
 	
 	
 
